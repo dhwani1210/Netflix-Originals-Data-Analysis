@@ -24,7 +24,7 @@ print(df.isnull().sum())
 
 """ Task 6: Tackling Duplicates in Netflix Originals Dataset. """
 duplicates = df[df.duplicated()]
-print(duplicates)
+print(len(duplicates))
 
 """ Task 7: Eliminating Duplicates for Netflix Insights. """
 # print(df.info())
